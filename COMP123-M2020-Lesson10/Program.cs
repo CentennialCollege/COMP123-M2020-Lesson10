@@ -8,6 +8,7 @@ namespace COMP123_M2020_Lesson10
 {
     public static class Program
     {
+        public static SplashForm splashForm;
         public static StartForm startForm;
         public static MainForm mainForm;
         public static EndForm endForm;
@@ -21,11 +22,12 @@ namespace COMP123_M2020_Lesson10
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
+            splashForm = new SplashForm();
             startForm = new StartForm();
             mainForm = new MainForm();
             endForm = new EndForm();
 
-            Application.Run(startForm);
+            Application.Run(splashForm);
         }
     }
 }

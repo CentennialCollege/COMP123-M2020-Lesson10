@@ -3,31 +3,28 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace COMP123_M2020_Lesson10
 {
-    public partial class StartForm : Form
+    public partial class SplashForm : Form
     {
-        public StartForm()
+        public SplashForm()
         {
             InitializeComponent();
         }
 
-        private void NextButton_Click(object sender, EventArgs e)
+        private void SplashFormTimer_Tick(object sender, EventArgs e)
         {
-
-            Program.mainForm.Show();
-
+            Program.startForm.Show();
             this.Hide();
+            SplashFormTimer.Enabled = false;
         }
 
-        private void StartForm_FormClosing(object sender, FormClosingEventArgs e)
+        private void SplashForm_Load(object sender, EventArgs e)
         {
-            Application.Exit();
+            SplashFormTimer.Enabled = true;
         }
     }
 }
