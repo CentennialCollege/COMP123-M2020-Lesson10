@@ -7,4 +7,10 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <EmbeddedResource Update="StartForm - Copy.resx">
+      <DependentUpon>StartForm - Copy.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+
 </Project>
