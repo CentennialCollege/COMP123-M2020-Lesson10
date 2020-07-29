@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -19,6 +20,8 @@ namespace COMP123_M2020_Lesson10
 
         private void NextButton_Click(object sender, EventArgs e)
         {
+            Debug.WriteLine("Next Button Clicked");
+
             SetContactData();
             ClearFormData();
 

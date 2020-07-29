@@ -38,6 +38,7 @@
             this.ContactNumberLabel = new System.Windows.Forms.Label();
             this.ContactNumberTextBox = new System.Windows.Forms.TextBox();
             this.ContactGroupBox = new System.Windows.Forms.GroupBox();
+            this.TitleLabel = new System.Windows.Forms.Label();
             this.ContactGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -130,19 +131,30 @@
             this.ContactGroupBox.Controls.Add(this.EmailAddressTextBox);
             this.ContactGroupBox.Controls.Add(this.LastNameTextBox);
             this.ContactGroupBox.Controls.Add(this.EmailAddressLabel);
-            this.ContactGroupBox.Location = new System.Drawing.Point(46, 12);
+            this.ContactGroupBox.Location = new System.Drawing.Point(48, 71);
             this.ContactGroupBox.Name = "ContactGroupBox";
             this.ContactGroupBox.Size = new System.Drawing.Size(408, 358);
             this.ContactGroupBox.TabIndex = 3;
             this.ContactGroupBox.TabStop = false;
             // 
+            // TitleLabel
+            // 
+            this.TitleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.TitleLabel.Location = new System.Drawing.Point(48, 25);
+            this.TitleLabel.Name = "TitleLabel";
+            this.TitleLabel.Size = new System.Drawing.Size(408, 52);
+            this.TitleLabel.TabIndex = 1;
+            this.TitleLabel.Text = "Enter Contact Information";
+            // 
             // StartForm
             // 
+            this.AcceptButton = this.NextButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(624, 441);
             this.Controls.Add(this.ContactGroupBox);
             this.Controls.Add(this.NextButton);
+            this.Controls.Add(this.TitleLabel);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
@@ -170,6 +182,7 @@
         private System.Windows.Forms.Label ContactNumberLabel;
         private System.Windows.Forms.TextBox ContactNumberTextBox;
         private System.Windows.Forms.GroupBox ContactGroupBox;
+        private System.Windows.Forms.Label TitleLabel;
     }
 }
 
