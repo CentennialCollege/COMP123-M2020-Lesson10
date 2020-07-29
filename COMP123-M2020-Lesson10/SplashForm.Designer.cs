@@ -39,7 +39,7 @@
             this.SplashFormLabel.Name = "SplashFormLabel";
             this.SplashFormLabel.Size = new System.Drawing.Size(600, 41);
             this.SplashFormLabel.TabIndex = 1;
-            this.SplashFormLabel.Text = "Welcome to Your App!";
+            this.SplashFormLabel.Text = "Welcome to the Contact App!";
             this.SplashFormLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // SplashFormTimer

@@ -144,7 +144,8 @@
             this.TitleLabel.Name = "TitleLabel";
             this.TitleLabel.Size = new System.Drawing.Size(408, 52);
             this.TitleLabel.TabIndex = 1;
-            this.TitleLabel.Text = "Enter Contact Information";
+            this.TitleLabel.Text = "Enter New Contact";
+            this.TitleLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // StartForm
             // 

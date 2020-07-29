@@ -62,6 +62,8 @@ namespace COMP123_M2020_Lesson10
                 // read data from the file
                 SetContactData(streamReader);
 
+                // show data on the form
+                ShowContactData();
 
                 // cleanup
                 streamReader.Close();

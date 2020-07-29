@@ -17,7 +17,7 @@ namespace COMP123_M2020_Lesson10
 
         private void SplashFormTimer_Tick(object sender, EventArgs e)
         {
-            Program.startForm.Show();
+            Program.dashBoardForm.Show();
             this.Hide();
             SplashFormTimer.Enabled = false;
         }

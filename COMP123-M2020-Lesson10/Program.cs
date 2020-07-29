@@ -9,6 +9,7 @@ namespace COMP123_M2020_Lesson10
     public static class Program
     {
         public static SplashForm splashForm;
+        public static DashBoardForm dashBoardForm;
         public static StartForm startForm;
         public static MainForm mainForm;
         public static EndForm endForm;
@@ -25,6 +26,7 @@ namespace COMP123_M2020_Lesson10
             Application.SetCompatibleTextRenderingDefault(false);
 
             splashForm = new SplashForm();
+            dashBoardForm = new DashBoardForm();
             startForm = new StartForm();
             mainForm = new MainForm();
             endForm = new EndForm();

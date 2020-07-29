@@ -169,7 +169,7 @@
             this.ContactInfoLabel.Name = "ContactInfoLabel";
             this.ContactInfoLabel.Size = new System.Drawing.Size(408, 52);
             this.ContactInfoLabel.TabIndex = 1;
-            this.ContactInfoLabel.Text = "Contact Info Loaded";
+            this.ContactInfoLabel.Text = "Load Contact Info";
             // 
             // EndForm
             // 
